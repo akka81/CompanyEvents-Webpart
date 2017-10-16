@@ -1,0 +1,11 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "company-events-web-part-client-side-solution",
+    "id": "fd77f682-a1f7-4115-a9a3-94dc3c06f7f2",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/company-events-web-part.sppkg"
+  }
+}

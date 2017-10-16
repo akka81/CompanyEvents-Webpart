@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "company-events-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/companyEvents/CompanyEventsWebPart.js",
+          "manifest": "./src/webparts/companyEvents/CompanyEventsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CompanyEventsWebPartStrings": "lib/webparts/companyEvents/loc/{locale}.js"
+  }
+}
